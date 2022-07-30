@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+main {
+  text-align: center;
+  justify-content: center;
+}
+
+.box {
+  width: 100%;
+  height: 5px;
+  background-color: coral;
+}
+
+header {
+  width: 80vw;
+
+  padding-top: 2rem;
+  text-align: center;
+
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+header .logo img {
+  width: 200px;
+  height: auto;
+
+  background: whitesmoke;
+  border-radius: 50%;
+}
+
+header .top-info {
+  text-align: left;
+}
+
+header .top-info h1 {
+  font-family: 'Ubuntu', sans-serif;
+
+  margin-bottom: 1rem;
+}
+
+header .top-info h3 {
+  color: lightgray;
+}
+
+header .top-info p a {
+  color: whitesmoke;
+}
+
+header .top-info p a:hover {
+  opacity: .8;
+  text-decoration: none;
+}
+
+header .top-info ul li span {
+  background: rgba(255, 255, 255, .8);
+  color: #2e2f2f;
+  padding: .2rem;
+  border-radius: 10px;
+}

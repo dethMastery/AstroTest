@@ -1,5 +1,6 @@
 ---
-import { Content as TourContent } from "../content/Profile.md";
+import { Content as WorkingProfile } from "../content/Profile.md";
+import { Content as HeadInfo } from "../content/HeadInfo.md";
 import "../styles/global.css";
 import "../styles/home.css";
 
@@ -16,14 +17,19 @@ let title = "Suphakit Pinyoworapot";
 	</head>
 	<body>
 		<main>
+			<div class="box"></div>
+
 			<header>
-				<div>
-					Hiya! This is Suphakit P.
+				<div class="logo">
+					<img src="https://avatars.githubusercontent.com/u/25049577?v=4" alt="avatar">
+				</div>
+				<div class="top-info">
+					<HeadInfo />
 				</div>
 			</header>
 
 			<article>
-				<TourContent />
+				<WorkingProfile />
 			</article>
 		</main>
 	</body>
