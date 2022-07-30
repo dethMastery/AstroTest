@@ -1,8 +1,10 @@
 ---
 import { Content as WorkingProfile } from "../content/Profile.md";
 import { Content as HeadInfo } from "../content/HeadInfo.md";
+import Avatar from "../components/avatar.astro";
 import "../styles/global.css";
 import "../styles/home.css";
+import "../styles/mobile.css";
 
 let title = "Suphakit Pinyoworapot";
 ---
@@ -21,7 +23,7 @@ let title = "Suphakit Pinyoworapot";
 
 			<header>
 				<div class="logo">
-					<img src="https://avatars.githubusercontent.com/u/25049577?v=4" alt="avatar">
+					<Avatar />
 				</div>
 				<div class="top-info">
 					<HeadInfo />

@@ -12,10 +12,9 @@ main {
 }
 
 header {
-  width: 80vw;
-
   padding-top: 2rem;
-  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
 
   display: flex;
   gap: 2rem;
@@ -23,9 +22,6 @@ header {
 }
 
 header .logo img {
-  width: 200px;
-  height: auto;
-
   background: whitesmoke;
   border-radius: 50%;
 }
@@ -50,7 +46,7 @@ header .top-info p a {
 
 header .top-info p a:hover {
   opacity: .8;
-  text-decoration: none;
+  text-decoration: no;
 }
 
 header .top-info ul li span {

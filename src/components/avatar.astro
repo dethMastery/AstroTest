@@ -1,0 +1,10 @@
+---
+export interface Props {
+  height?: number;
+  width?: number;
+}
+
+const { height = 200, width = 200} = Astro.props;
+---
+
+<img height={height} width={width} src="https://avatars.githubusercontent.com/u/25049577?v=4" alt="avatar">
