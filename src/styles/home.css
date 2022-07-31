@@ -55,3 +55,8 @@ header .top-info ul li span {
   padding: .2rem;
   border-radius: 10px;
 }
+
+article {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
