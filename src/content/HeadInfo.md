@@ -2,8 +2,8 @@
 ### A music composer with front-end and a little of back-end Dev skill :3
 <img src="https://komarev.com/ghpvc/?username=dethmastery&label=Page%20views&color=0e75b6&style=for-the-badge" alt="dethmastery" />
 <br />
-<br />
-I'm a music composer who start from HTML. Now, I'm trying on back-end and another front-end frameworks ( like this one which is called ['Astro'](https://astro.build/) ). <br />
+
+I'm a music composer who start from HTML. Now, I'm trying on back-end and another front-end frameworks like this one which is called ['Astro'](https://astro.build). <br />
 
 - Birthdate : 2002, 15 June
 - Home Town : Chonburi, Thailand

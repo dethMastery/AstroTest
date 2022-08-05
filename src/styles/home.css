@@ -13,8 +13,8 @@ main {
 
 header {
   padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
 
   display: flex;
   gap: 2rem;
@@ -57,6 +57,37 @@ header .top-info ul li span {
 }
 
 article {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+}
+
+article h2 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+article a {
+  color: lightgrey;
+  text-decoration: underline;
+}
+
+article a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+article img {
+  width: 20px;
+  height: 20px;
+}
+
+codersrank-summary {
+  --bg-color: #3C3D3D;
+  --border: none;
+  --border-radius: 2rem;
+  
+  --badge-bg-color: #3C3D3D;
+  --badge-text-color: whitesmoke;
+  --badge-border: none;
+  --badge-border-radius: 2rem;
 }
